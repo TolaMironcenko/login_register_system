@@ -7,6 +7,10 @@ buildgcc:
 buildclang:
 	clang++ -o main *.cpp
 
-start:
+startgcc:
 	g++ -o main main.cpp
+	./main
+
+startclang:
+	clang++ -o main *.cpp
 	./main

@@ -85,7 +85,7 @@ int main() {
 			case 3:
 				{
 					ifstream fin("users.txt");
-					char buffer[1024];
+					string buffer;
 					string out[2] = {"tola", "Simba28082020"};
 					cout << '\n';
 					int k = 0;
