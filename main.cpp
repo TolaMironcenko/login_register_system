@@ -1,7 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <cstring>
 #include "termcolor.hpp"
 
 using namespace std;
@@ -107,5 +105,4 @@ int main() {
 				exit(0);
 		}
 	}
-	return 0;
 }
