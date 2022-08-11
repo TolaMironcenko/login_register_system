@@ -1,3 +1,7 @@
+// 
+// created by anatoly mironcenko
+// 
+
 #include <iostream>
 #include <fstream>
 #include "termcolor.hpp"
