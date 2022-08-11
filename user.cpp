@@ -40,11 +40,11 @@ void User::setpassword(string oldpassword, string oldpassword1, string newpasswo
     }
 }
 
-void User::setpassword(int password) {
+void User::setpassword(string password) {
     this->password = password;
 }
 
-void User::setpassword(int password1, int password2) {
+void User::setpassword(string password1, string password2) {
     if (password1 == password2) {
         this->password = password1;
     }

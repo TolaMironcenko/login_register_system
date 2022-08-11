@@ -5,6 +5,9 @@
 #ifndef FCPP_USER_H
 #define FCPP_USER_H
 
+#include <iostream>
+
+using namespace std;
 
 class User {
 private:

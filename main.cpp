@@ -94,7 +94,8 @@ int main() {
 							fin >> buffer;
 							out[i] = buffer;
 						}
-						cout << termcolor::white << "[" << k << "]: " << "username: " << out[0] << " " << "password: " << out[1] << endl;
+						cout << termcolor::white << "[" << k << "]: " << "username: ";
+                        cout << out[0] << " " << "password: " << out[1] << endl;
 						k++;
 					}
 					cout << '\n';

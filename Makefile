@@ -1,5 +1,8 @@
 build:
-	g++ -o main *.cpp
+	g++ -o main main.cpp
+
+run:
+	./main
 
 buildgcc:
 	g++ -o main *.cpp
